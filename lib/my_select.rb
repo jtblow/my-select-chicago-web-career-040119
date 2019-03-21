@@ -4,6 +4,6 @@ def my_select(collection)
  while i < collection.length
  i+=1
    select << {|i| i % 2 == 0}
-
 end
+select
 end
