@@ -3,7 +3,7 @@ def my_select(collection)
  select = []
  while i < collection.length
  i+=1
-   select << |i| i % 2 == 0 
+   select << {|i| i % 2 == 0}
 
 end
 end
