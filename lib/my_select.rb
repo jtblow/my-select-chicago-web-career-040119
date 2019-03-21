@@ -6,3 +6,4 @@ def my_select(collection)
    select << i 
 end
 end
+end
